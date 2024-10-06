@@ -301,7 +301,7 @@ if __name__ == "__main__":
 
   encrypted = encrypt(plaintext_binary, rkb)
 
-  print("Encrypted binary: ", encrypted)
+  
   print("encrypted hex: ", binaryToHex(encrypted).split('0x')[1])
    
   rkb_rev = rkb[::-1]
